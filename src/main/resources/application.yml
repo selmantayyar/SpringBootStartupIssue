@@ -1,0 +1,25 @@
+security:
+  user:
+    password: password
+logging:
+  level:
+    org.springframework.security: INFO
+release:
+  sourceDir: d:/test1/
+  targetDir: d:/test2/
+users:
+  - name: ww
+    pwd : pp
+  - name: tt
+    pwd : ii
+
+mail:
+  host: smtp.dd
+  recipients: recipient@mail.com
+  subject: Subject
+  body: Body.
+server:
+    port: 8080
+spring:
+  profiles:
+    active: dev
