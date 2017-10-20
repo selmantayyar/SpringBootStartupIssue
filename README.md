@@ -7,7 +7,8 @@ Steps to reproduce:
 
 1. mvn clean package
 2. create a config directory at the same level with the produced demo-0.0.1-SNAPSHOT.jar file and copy the src/main/resources/application.yml file in it.
-3. java -jar demo-0.0.1-SNAPSHOT.jar
+3. change the last line of the copied application.yml file to: active: prod
+4. java -jar demo-0.0.1-SNAPSHOT.jar
 
 Application will simply not start without displaying any error.
 
